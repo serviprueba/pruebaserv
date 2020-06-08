@@ -1,0 +1,510 @@
+/* @autor OscarDiaz */
+
+*{
+	margin:0;	
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	 padding: 0;
+	 margin: 0;
+	 background-color: #f4f4f4;
+}
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* Estilos Globales */ 
+
+.contenedor{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	text-align: left; /*tener aqui cuidado para que no se muevan los textos*/
+
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+
+
+}
+
+/* Encabezados */
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+header{
+	background-color: #f4f4f4;   /* 24282b   color original */ 
+	color: #fff;
+	padding-top: 10px;
+	min-height: 100px;
+	border-bottom: 10px  solid #033a99;   /* 1293d4  color original */ 
+
+
+
+}
+
+header a{
+	color: #24282b;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px; 
+
+
+}
+
+header li{
+
+	float: left;
+	display: inline; 
+	padding: 0 15px 0 15px;
+	margin-top: 10px;
+
+
+}
+
+header #marca{
+	float: left;
+
+
+}
+
+header #marca h1{
+	margin: 0;
+
+
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+
+}
+
+header .resaltdo, header .actual a{
+	color: #033a99;
+	font-weight: bold;
+
+}
+
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+
+
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/* cabecera con imagen */
+
+#cabecera{
+	min-height: 400px;
+	background: url(../img/2.png) no-repeat 0 -400px ;
+	text-align: center;
+	color: 	#fff; 
+} 
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/*boletin*/
+
+#boletin{
+	padding: 0%;
+	color: #fff;
+	background: #24282b;
+
+
+}
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/*cajas*/
+
+#cajas{
+	margin-top: 0px	 auto;
+
+}
+
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 80%;
+	padding: 6%;
+
+
+}
+
+#cajas .caja img{
+	width: 100px;
+	transition: 1s;
+
+}
+
+#cajas .box img{
+	width: 100px ;
+	height: 100px;
+	float: right;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+	text-align: center;
+
+}
+
+
+#cajas .img-box{
+	 width: 70%;
+	 height: 70%;
+	 overflow: hidden;
+	 box-shadow: 3px 5px 25px rgba(0,0,0,0.548);
+
+	 
+
+
+}
+
+#cajas .img-box img{
+	width: 100%;
+	height: 90%;
+	transition: 1s;
+
+	
+
+}
+
+
+
+#cajas .caja img:hover{
+
+	transform: scale(1.1);
+
+}
+
+ /*-----------------------------------------------------------------------*/ 
+ /*------------------------------------------------------------------------------------------*/
+ /*------------------------------------------------------------------------------------------*/
+ /*------------------------------------------------------------------------------------------*/
+
+ /*--------------------------CAJAS DEL LADO DERECHO ---------------------------------------*/
+
+#cajas{
+	margin-top: 0px	 auto;
+
+}
+
+#cajas .cajass{
+	float: right;
+	text-align: center;
+	width: 80%;
+	padding: 6%;
+
+
+}
+
+#cajas .cajass img{
+	width: 100px;
+	transition: 1s;
+
+}
+
+#cajas .boxx img{
+	width: 100px ;
+	height: 100px;
+	float: right;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+	text-align: center;
+
+}
+
+
+#cajas .img-boxx{
+	 width: 47%;  /*-----SE MUEVE EL TAMAÑO ------------*/
+	 height: 47%;
+	 overflow: hidden;
+	 box-shadow: 3px 5px 25px rgba(0,0,0,0.548);
+	 float: right; /*--------SE MUEVE DE LUGAR DERECHO ----------*/
+	 text-align: center;
+	 
+
+
+}
+
+#cajas .img-boxx img{
+	width: 100%;
+	height: 90%;
+	transition: 1s;
+
+	
+
+}
+
+
+
+#cajas .cajas img:hover{
+
+	transform: scale(1.1);
+
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/*Seccion de Nosotros*/
+.cont{
+
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 30px;
+	
+
+}
+
+aside#lateral{
+	float: right;
+	width: 30%;
+	margin-top: 10x;
+
+}
+
+.oscuro{
+	padding: 1px;
+	background-color: #6a6a6a;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+/*main-cole*/
+
+article#main-col{
+	float: left;
+	text-align: center;
+	width: 100%; /*tetetetetete*/
+	text-align: justify;
+	color: #6a6a6a;
+	line-height: 2.0;
+	font-size: 20px;
+
+}
+
+.oscuro h3{
+	text-align: center;
+
+
+}
+.cont h1{
+	text-align: center;
+	color: #100864;
+	font-size: 30px;
+}
+
+.cont h3{
+	color: #100864;
+	font-size: 30px;
+}
+/* ------- Nosotros CAJAS-------------------- */
+
+#nosotross{
+	margin-top: 0px	 auto;
+
+}
+
+#nosotross .caja1{
+	float: left;
+	text-align: center;
+	width: 150%;
+	padding: 0%;
+
+
+}
+
+#nosotross .caja1 img{
+	width: 150%;
+	transition: 1s;
+
+}
+
+#nosotross .bo img{
+	width: 150% ;
+	height: 150px;
+	float: right;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+	text-align: center;
+
+}
+
+
+#nosotross .img-bo{
+	 width: 70%;
+	 height: 70%;
+	 overflow: hidden;
+	 box-shadow: 3px 5px 25px rgba(0,0,0,0.548);
+
+}
+
+#nosotross .img-bo img{
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+#nosotross .caja1 img:hover{
+
+	transform: scale(1.1);
+
+}
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/* Footer pie de pagina */
+
+footer{
+	 width: 100%;
+    background: #202020;
+    color: white; 
+
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 200px;
+}
+
+.colum1 h1{
+    font-size: 20px;
+}
+
+.colum1 p{
+    font-size: 15px; /* cambia el tamaño de letra */
+    color: #C7C7C7;
+    margin-top: 20px; /* Separacion de titulo con el texto */
+   
+}
+
+.colum2{
+    max-width: 300px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 300px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 250px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}

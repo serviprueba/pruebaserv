@@ -1,0 +1,169 @@
+
+/** Acerca de Nosotros **/
+.acerca-de{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.acerca-de .info-container{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.acerca-de .info-container h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #100864;
+}
+
+.acerca-de .info-container h3{
+	font-size: 27px;	
+}
+.acerca-de .info-container p{
+    text-align: justify;
+    font-size: 25px;
+    color: #6a6a6a;
+    line-height: 40px;
+    margin:10px 0px;
+}
+@media only screen and (max-width:590px){
+    .acerca-de .info-container h1{font-size: 30px;}
+    .acerca-de .info-container p{font-size: 15px;}
+}
+
+/*----------------------kkkkkkkkk------------------------*/
+.presentacion{
+	width: 75%;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	border-radius: 7px;
+	overflow: hidden;
+	background: #fff;
+	
+	
+	
+}
+
+.presentacion img{
+	width: 50%;	
+
+}
+
+.presentacion .img img{
+	width: 250px;
+	height: 100%;
+	vertical-align: top;
+
+}
+
+.produc-info{
+	width: 100%;
+	border-radius: 0px 7px 10px 7px;
+	background: #071568;
+	line-height: 1.5;
+}
+
+.produc-text{
+	width: 100%;
+	text-align: center;
+}
+
+.produc-text h1{
+	margin-left: 38px;
+	padding-top: 52px;
+	font-size: 34px;
+	color: #fff;
+	text-align: center;
+
+}
+.produc-text h1, .precio-btn{
+	font-family: serif;
+
+}
+
+.produc-text h2{
+	margin: 0 0 47px 38px;
+	font-size: 13px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color:#fff;
+	letter-spacing: .2em;
+
+}
+
+.produc-text p{
+	height: 125px;
+	margin-left: 38px;
+	font-family: serif;
+	color:#fff;
+	line-height: 1.7em;
+}
+
+/* ----------------derecha ------------------------- 
+
+.presentaciond{
+	height: 300px;
+	width: 70%;
+	display: flex;
+	margin: auto;
+	border-radius: 7px;
+	box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.5);
+	overflow: hidden;
+	box-sizing: border-box;
+	
+}
+
+.presentaciond img{
+	width: 50%;
+}
+
+.presentaciond .img img{
+	width: 100%;
+	vertical-align: top;
+
+}
+
+.product-info{
+	width: 50;
+	border-radius: 0px 7px 10px 7px;
+	background: #fff;
+}
+
+.product-text{
+	width: 100%;
+}
+
+.product-text h1{
+	margin-left: 38px;
+	padding-top: 52px;
+	font-size: 34px;
+	color:#474747;
+
+}
+.product-text h1, .precio-btn{
+	font-family: serif;
+
+}
+
+.product-text h2{
+	margin: 0 0 47px 38px;
+	font-size: 13px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color:#d2d2d2;
+	letter-spacing: .2em;
+
+}
+
+.product-text p{
+	height: 125px;
+	margin-left: 38px;
+	font-family: serif;
+	color:#8d8d8d;
+	line-height: 1.7em;
+}

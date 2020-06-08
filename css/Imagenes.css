@@ -1,0 +1,117 @@
+
+
+
+.conte{
+	width: 90%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	display: flex;
+	margin: auto;
+	max-width: 1000px;
+	overflow: hidden;
+	text-align: left; /*tener aqui cuidado para que no se muevan los textos*/
+
+
+}
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/*cajas de sucursales */
+
+
+#su{
+	margin-top: 0px	 auto;
+
+}
+
+#su .sucur{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+
+
+}
+
+#su .sucur img{
+	width: 100%;
+	transition: 1s;
+
+}
+
+#su .img-c img{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	filter: brightness(90%);
+	transition: 1s;
+
+	
+
+}
+
+#su .sucur img:hover{
+
+	transform: scale(1.1);
+	filter: brightness(100%);
+
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/*cajas*/
+
+#c{
+	margin-top: 0px	 auto;
+
+}
+
+#c .ca{
+	float: left;
+	text-align: center;
+	color: #fff;
+	width: 30%;
+	padding: 10px;
+
+
+}
+
+#c .ca img{
+	width: 100%;
+	transition: 1s;
+
+}
+
+#c .img-b img{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	filter: brightness(90%);
+	transition: 1s;
+
+	
+
+}
+
+#c .ca img:hover{
+
+	transform: scale(1.1);
+	filter: brightness(100%);
+
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+/*cajas*/
+
